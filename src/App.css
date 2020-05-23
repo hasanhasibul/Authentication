@@ -1,27 +1,25 @@
-.App {
+.App{
   text-align: center;
+  background-color: salmon;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.result{
+  background-color: cyan;
+  padding: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Control{
+  background-color: salmon;
+  padding: 40px;
 }
+.button{
+  width: 10%;
+  padding: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.Control input{
+  line-height: 30px;
+  width: 50%;
+  margin: 10px;
+ 
 }
 
 .App-link {
